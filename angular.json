@@ -93,15 +93,11 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-eslint/builder:lint",
           "options": {
-            "tsConfig": [
-              "libs/first-app/tsconfig.app.json",
-              "libs/first-app/tsconfig.spec.json",
-              "libs/first-app/e2e/tsconfig.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
+            "lintFilePatterns": [
+              "libs/first-app/**/*.ts",
+              "libs/first-app/**/*.html"
             ]
           }
         },
@@ -209,15 +205,11 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-eslint/builder:lint",
           "options": {
-            "tsConfig": [
-              "libs/second-app/tsconfig.app.json",
-              "libs/second-app/tsconfig.spec.json",
-              "libs/second-app/e2e/tsconfig.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
+            "lintFilePatterns": [
+              "libs/second-app/**/*.ts",
+              "libs/second-app/**/*.html"
             ]
           }
         },
