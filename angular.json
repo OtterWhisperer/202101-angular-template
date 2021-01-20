@@ -133,7 +133,8 @@
             "aot": true,
             "assets": [
               "libs/second-app/src/favicon.ico",
-              "libs/second-app/src/assets"
+              "libs/second-app/src/assets",
+              "libs/second-app/src/manifest.webmanifest"
             ],
             "styles": [
               "libs/second-app/src/styles.css"
@@ -166,7 +167,9 @@
                   "maximumWarning": "6kb",
                   "maximumError": "10kb"
                 }
-              ]
+              ],
+              "serviceWorker": true,
+              "ngswConfigPath": "libs/second-app/ngsw-config.json"
             }
           }
         },
@@ -196,7 +199,8 @@
             "karmaConfig": "libs/second-app/karma.conf.js",
             "assets": [
               "libs/second-app/src/favicon.ico",
-              "libs/second-app/src/assets"
+              "libs/second-app/src/assets",
+              "libs/second-app/src/manifest.webmanifest"
             ],
             "styles": [
               "libs/second-app/src/styles.css"
