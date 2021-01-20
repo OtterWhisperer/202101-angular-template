@@ -4,6 +4,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 > ```ng new angular-template --commit=false --create-application=false --directory=202101-angular-template --new-project-root=libs --prefix=temp --routing=false --skip-git=true```
 
+## Applications
+
+The applications are stored in the `libs` folder via `ng generate application application-name`.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
