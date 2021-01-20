@@ -1,5 +1,7 @@
 # AngularTemplate
 
+[![build status](https://github.com/otterwhisperer/202101-angular-template/workflows/Build/badge.svg)](https://github.com/otterwhisperer/202101-angular-template/actions)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5 with the following command:
 
 > ```ng new angular-template --commit=false --create-application=false --directory=202101-angular-template --new-project-root=libs --prefix=temp --routing=false --skip-git=true```
